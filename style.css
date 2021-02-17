@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700;900&display=swap');
+
+.blog {
+    width: 1500px;
+    max-height: 864px;
+    background-color: #b07cf7;
+    box-sizing: border-box;
+    padding: 100px 165px 120px;
+}
+.title {
+    height: 86px;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+.text {
+    width: 563px;
+    height: 66px;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    margin: 30px auto;
+}
+.icons {
+
+    margin: 47px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    
+}
+.data {
+    background: url(./img/bg.png) no-repeat center;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(26, 26, 26, 0.5);
+    margin: 30px 280px 220px 30px;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.decription {
+    width: 307px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin: 200px 43px 0px 20px;
+}
+.avtor {
+    font-family: "Raleway - Light";
+    color: #ffffff;
+    text-align: left;
+    margin: 0px 43px 0px 20px;
+
+}
+.icon_one {
+    width: 33%;
+    height: 312px;
+    background: url(./img/1-layers.png) no-repeat center;
+    
+}
+.icon_two {
+    width: 33%;
+    height: 312px;
+    background: url(./img/2-layers.png) no-repeat center;
+}
+.icon_three {
+    width: 33%;
+    height: 312px;
+    background: url(./img/3-layers.png) no-repeat center;
+}
+
+button {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 485px;
+} 
+button:hover {
+    box-shadow: 14px 14px 3px rgba(0, 0, 0, 0.5);
+    background-color: #10a730;
+    transition-duration: .5s;
+    width: 250px;
+    height: 85px;
+}
+.icon_one:hover {
+    transition-duration: .5s;
+    box-shadow: 14px 14px 3px rgba(0, 0, 0, 0.5);
+    background-color: #10a730;
+    width: 40%;
+    height: 385px;
+}
+.icon_two:hover {
+    transition-duration: .5s;
+    box-shadow: 14px 14px 3px rgba(0, 0, 0, 0.5);
+    background-color:#f72b3b;
+    width: 40%;
+    height: 385px;
+}
+.icon_three:hover {
+     transition-duration: .5s;
+     box-shadow: 14px 14px 3px rgba(0, 0, 0, 0.5);
+     background-color: #ffffff;
+     width: 40%;
+     height: 385px;
+}
